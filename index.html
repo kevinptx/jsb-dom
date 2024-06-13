@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <section id="prompt-1">
+      <button id="login-button">Log In</button>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-2">
+      <form>
+        <p>
+          <label for="alert-text-input"
+            >What do you want the alert to say?</label
+          >
+        </p>
+        <p>
+          <input
+            id="alert-text-input"
+            type="text"
+            name="message"
+            placeholder="Hello, world!"
+          />
+        </p>
+        <p>
+          <button type="submit">Send Alert!</button>
+        </p>
+      </form>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-3">
+      <div id="color-boxes">
+        <div>crimson</div>
+        <div>cornsilk</div>
+        <div>darkviolet</div>
+        <div>dodgerblue</div>
+        <div>lightsalmon</div>
+        <div>palegreen</div>
+      </div>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-4">
+      <div id="task-list"></div>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-5">
+      <form id="factorial-form">
+        <label for="num">Enter a number to calculate its factorial</label>
+        <input type="number" id="num" name="number" placeholder="100" />
+        <button type="submit">Submit</button>
+      </form>
+
+      <p>Result of calculation: <span id="factorial-result"></span></p>
+    </section>
+
+    <!-- -->
+
+    <section id="prompt-6">
+      <pre id="fizzbuzz-results"></pre>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
